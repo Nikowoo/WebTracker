@@ -1,0 +1,45 @@
+{
+  "name": "webtracker",
+  "version": "0.1.0",
+  "description": "An HTML reimagining of FamiTracker",
+  "keywords": [
+    "famitracker",
+    "0cc-famitracker",
+    "dn-famitracker",
+    "nes",
+    "chiptune",
+    "tracker",
+    "2a03",
+    "vrc6",
+    "vrc7",
+    "fds",
+    "n163",
+    "webamp",
+    "web-audio-api"
+  ],
+  "license": "GPL-3.0-or-later",
+  "author": "Niko",
+  "homepage": "https://github.com/Nikowoo/webtracker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikowoo/webtracker.git",
+    "directory": "packages/webtracker"
+  },
+  "bugs": {
+    "url": "https://github.com/Nikowoo/webtracker/issues"
+  },
+  "files": [
+    "js",
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "main": "js/parser.js",
+  "sideEffects": true,
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "render": "node scripts/render-wav.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
