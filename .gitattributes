@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.ftm binary
+*.0cc binary
+*.dnm binary

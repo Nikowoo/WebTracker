@@ -1,0 +1,5 @@
+node_modules/
+packages/webtracker/built/
+packages/webtracker-site/dist/
+.DS_Store
+*.log
